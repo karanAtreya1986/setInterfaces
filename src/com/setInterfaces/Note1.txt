@@ -1,0 +1,7 @@
+HashSet and treeSet are non-synchronized. i. e. both are non-thread safe. 
+To synchronize explicitly, use the Collections class.
+Collections.synchronizedSet(new HashSet)
+HashSet better performance for adding, removing and many other things since no ordering 
+so light weight API.
+HashSet does not have any sorting within, treeSet sorts output in ascending order.
+HashSet -> one null key allowed, treeSet -> no null key allowed.
